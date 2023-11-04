@@ -1,10 +1,11 @@
+//This program is identifying classes and methods
 public class Simple{
     int year;  
     double rate;
     long  principle;
     
 
-    void getamount(int y, double r,   long p)
+    void getamount(int y, double r,   long p)//initialize methods and attributes
     {
 
         year=y;
@@ -13,7 +14,7 @@ public class Simple{
     }
     void calculation()
         {
-            double interest = year*principle*rate;
+            double interest = year*principle*rate;//formular of Simple interest
             System.out.println(interest);
 
         }  
