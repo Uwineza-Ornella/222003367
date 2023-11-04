@@ -1,4 +1,5 @@
 //This program is identifying classes and methods
+// This program finds the simple interest of Mr bob
 public class Simple{
     int year;  
     double rate;
